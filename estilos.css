@@ -15,7 +15,7 @@ header img {
 nav {
     background: #340299;
     color: white;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 10px 0;
     margin-top: 0px;
 }
 nav ul li {
@@ -27,13 +27,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 a {
     padding: 10px;
 }
 
-a:hover {
+nav a:hover {
     background-color: #caf4fe;
     padding: 10px;
     border-radius: 10px;
@@ -43,4 +44,50 @@ section{
     padding-top: 50px;
     text-align: center;
     margin-bottom: 30px;
+}
+
+footer {
+background-color: rgb(54, 54, 54);
+padding: 5px;
+font-weight: lighter;
+font-size: 15px;
+margin-bottom: opx;
+}
+
+footer p {
+    color: white;
+}
+
+a img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+}
+
+a img:hover {
+    background-color: #caf4fe;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px
+}
+
+p input {
+    background: #1cb242;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    border: 300px;
+    font-size: 17px;
+}
+
+input {
+    width: 400px;
+    height: 35px;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
 }

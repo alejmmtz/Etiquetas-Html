@@ -1,5 +1,5 @@
 body {
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 background: white;
 margin: 0px;
 }
@@ -15,8 +15,9 @@ header img {
 nav {
     background: #340299;
     color: white;
-    padding: 0px 0 10px 0;
+    padding: 10px 0 10px 0;
     margin-top: 0px;
+    text-align: center;
 }
 nav ul li {
     display: inline;
@@ -35,7 +36,7 @@ a {
 }
 
 nav a:hover {
-    background-color: #caf4fe;
+    background-color: #2a2565;
     padding: 10px;
     border-radius: 10px;
 }
@@ -52,6 +53,7 @@ padding: 5px;
 font-weight: lighter;
 font-size: 15px;
 margin-bottom: opx;
+text-align: center;
 }
 
 footer p {
@@ -62,14 +64,6 @@ a img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 10px solid whitesmoke;
-}
-
-a img:hover {
-    background-color: #caf4fe;
-    padding: 10px;
-    border-radius: 50%;
-    border: 10px
 }
 
 p input {
@@ -90,4 +84,45 @@ input {
 textarea {
     width: 400px;
     height: 80px;
+}
+
+.tienda {
+    background-color: #f0e6e2; 
+    padding: 30px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.producto {
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.producto img {
+    width: 100%;
+}
+
+
+button {
+    background-color: #340299;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #2a2565;
 }
